@@ -21,6 +21,12 @@ int min_stack(stack<pair<int,int>> st){
 
 }
 
+//Added the pop_element functionality in minstack program
+int pop_element(stack<pair<int,int>> &st){
+	int removed_element=st.top().first ;
+	st.pop() ;
+	return removed_element ;
+}
 
 
 void solve(){
@@ -41,7 +47,10 @@ void solve(){
 
 	int ans1=min_stack(st) ;
 	cout<<ans1<<"\n" ;
-
+	
+	//tested on a random testcase
+	int ans2=pop_element(st) ;	
+	cout<<ans2<<"\n" ;
 
 	int ans3=min_stack(st) ;
 	cout<<ans3<<"\n" ;

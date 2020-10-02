@@ -20,7 +20,7 @@ void solve(){
 
 		cout<<var_sum<<"\n" ;
 
-		while(var_sum+a[r]>=sum){
+		while(var_sum+a[r]<=sum){
 			var_sum=var_sum+a[r] ;
 			r++ ;
 		}

@@ -1,3 +1,8 @@
 # FastDSA
 
-A data structure and algorithm library which contains simple implementation which a beginner programmer can understand easily and apply it to different problems
+A library containing simple yet fast(complexity wise) implementation of various important data structures and algorithms in C++ ,
+
+which a beginner programmer can easily understand and apply it to different problems.
+
+
+

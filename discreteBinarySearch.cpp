@@ -16,13 +16,13 @@ int discrete_binary_search(int *a,int n,int target){
 
 	int lo=1 ;
 	int hi=n-1 ;
-	//condition mistake has been corrected
+
 	while(lo<hi){
 
-		int mid=lo+(hi-lo)/2 ; // int overflow problem solved
+		int mid=lo+(hi-lo)/2 ;
 
 		if(p(a,mid,target)==true){
-			hi=mid ;		//debugged
+			hi=mid ;
 		}
 		else{
 			lo=mid+1 ;
